@@ -1,0 +1,39 @@
+
+    h1 {color: #1600FF;}
+    
+
+    .Menu 
+    {
+        display: flex;
+        justify-content: space-evenly;
+        background-image: url("/images/WP.jpg");
+        font-size: 20px;
+        font-family: Times;
+        font-weight: 400;
+        padding: 15px;
+        color: #054418;
+    }
+
+    .Middle
+    {
+        text-align: center;
+    }
+
+    .Right
+    {
+        text-align: end;
+    }
+
+    .Content
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 00px;
+        margin: 20px;
+    }
+
+    .Origami:hover
+    {
+        transform:scale(1.2);
+    }
